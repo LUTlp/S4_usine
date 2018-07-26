@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+**Ohé du bateau !
 
-Things you may want to cover:
+Voici une appli qui gère des recettes de fab de meubles  ikéa !
 
-* Ruby version
+On prends des pièces qui peuvent être utilisées pour le clic-clac Bedinge, l'armoire Billy. On te donne la recette pour les assembler (assemblies).
+Tu retrouves tout ça dans petit sachet coincé entre la planche B2 et B6 dans le carton (join table assemblies_parts)!
 
-* System dependencies
+On utilise Ruby 2.5.1
 
-* Configuration
+Pour opérer :
+- lance un bundle install,
+- lance rails db:migrate
+- lance rails db:seed.
 
-* Database creation
+Voilà, tu es paré à border.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Bon vent !
